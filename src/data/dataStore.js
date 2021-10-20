@@ -6,6 +6,9 @@ export const settings = {
     buttonCancel: 'Cancel',
     defaultText: 'Add new item',
   },
+  header: {
+    icon: 'user-ninja',
+  },
   search: {
     defaultText: 'Search...',
     icon: 'search',
@@ -17,6 +20,18 @@ export const settings = {
 export const pageContents = {
   title: 'My first React app',
   subtitle: 'A simple to-do app, with lists, columns and cards',
+};
+
+export const infoData = {
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+  image: 'https://images.pexels.com/photos/3374210/pexels-photo-3374210.jpeg?auto=compress%26cs=tinysrgb%26dpr=3%26h=750%26w=1260',
+  title: 'Information about page',
+};
+
+export const faqData = {
+  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+  image: 'https://images.pexels.com/photos/3374210/pexels-photo-3374210.jpeg?auto=compress%26cs=tinysrgb%26dpr=3%26h=750%26w=1260',
+  title: 'Frequently asked questions',
 };
 
 export const listData = {
