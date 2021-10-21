@@ -94,6 +94,18 @@ const lists = [
     description: 'Interesting things I want to check out!',
     image: 'https://images.pexels.com/photos/3374210/pexels-photo-3374210.jpeg?auto=compress%26cs=tinysrgb%26dpr=3%26h=750%26w=1260',
   },
+  {
+    id: 'list-2',
+    title: 'Lorem ipsum dolor sit amet',
+    description: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium',
+    image: 'https://images.pexels.com/photos/816608/pexels-photo-816608.jpeg?auto=compress%26cs=tinysrgb%26dpr=2%26h=650%26w=940'
+  },
+  {
+    id: 'list-3',
+    title: 'Lorem ipsum dolor sit amet',
+    description: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium',
+    image: 'https://images.pexels.com/photos/1819650/pexels-photo-1819650.jpeg?auto=compress%26cs=tinysrgb%26dpr=2%26h=650%26w=940'
+  }
 ];
 
 const columns = [
