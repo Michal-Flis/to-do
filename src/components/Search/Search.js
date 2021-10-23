@@ -2,15 +2,15 @@ import React from 'react';
 import styles from './Search.scss';
 import Button from '../Button/Button';
 import PropTypes from 'prop-types';
-import { settings } from '../../data/dataStore';
 import Icon from '../Icon/Icon';
 import {withRouter} from 'react-router';
+import {settings} from '../../data/dataStore';
 
 class Search extends React.Component {
 
   state = {
     value: '',
-    visibleButtons: false
+    visibleButtons: false,
   }
 
   handleChange(event){
@@ -41,5 +41,9 @@ class Search extends React.Component {
     );
   }
 }
+
+Search.propTypes = {
+  history: PropTypes.object,
+};
 
 export default withRouter(Search);
